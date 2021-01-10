@@ -9,7 +9,8 @@ class Main {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 matrixInput[i][j] = scanner.nextInt();
-            }        }
+            }
+        }
 
 
         int[][] matrixReversed = new int[m][n];
